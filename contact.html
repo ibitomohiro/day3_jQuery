@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <title>株式会社DIVE</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <a href="index.html">
+        <img src="./images/logo.png" class="logo_image">
+      </a>
+      <nav>
+        <ul class="top_menu clearfix">
+          <dl id="accordion1">
+            <dt>事業内容</dt>
+            <dd>プログラミング指導</dd>
+            <dt>会社概要</dt>
+            <dd>プログラミング教室</dd>
+            <dt>お問い合わせ</dt>
+            <dd>ここに書いてください</dd>
+          </dl>
+        </ul>
+      </nav>
+    </header>
+    <img src="./images/contact.png" class="image_area">
+    <div class="wrapper clearfix">
+      <aside class="side_menu">
+        <nav>
+          <dl id="accordion">
+            <dt>事業内容</dt>
+            <dd>プログラミング指導</dd>
+            <dt>会社概要</dt>
+            <dd>プログラミング教室</dd>
+            <dt>お問い合わせ</dt>
+            <dd>ここに書いてください</dd>
+          </dl>
+        </nav>
+      </aside>
+      <article class="content">
+        <form action="#"method="POST">
+          <table class="contact">
+            <tr>
+              <th>お名前</th>
+              <td><input class="input_box" type="text" name="name"></td>            
+            </tr>
+            <tr>
+                <th>フリガナ</th>
+                <td><input class="furigana" type="text" name="name"></td>
+              </tr>
+              <th>メールアドレス</th>
+              <td><input class="input_box" type="text" name="name"></td>            
+            </tr>
+              <tr>
+              <th>電話番号</th>
+              <td><input class="cellphone_number" type="text" name="name"></td>            
+            </tr>
+            <tr>
+              <th>性別</th>
+              <td>
+                <input class="checkbox" type="checkbox" name="gender" value="男">男           
+                <input class="checkbox" type="checkbox" name="gender" value="女">女
+              </td>            
+            </tr>
+            <tr>
+              <th>お問い合わせ内容</th>
+              <td><input class="textarea_box" type="textarea" rows=""  cols="50" name="name"></td>            
+            </tr>
+          </table>
+          <input class="submit_button" type="submit" value="送信">
+        </form>
+      </article>
+    </div>
+    <footer class="footer">
+      <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
