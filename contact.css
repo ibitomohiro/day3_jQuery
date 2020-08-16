@@ -1,0 +1,162 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+#accordion1 {
+  width: 200px;
+  float: left;
+  width: auto;
+}
+#accordion {
+  width: 200px;
+}
+#accordion dt {
+  border-bottom: solid 1px white;
+  background-color:skyblue;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 60px;
+  font-weight: bold;
+  font-size: 15px;
+}
+#accordion dd {
+  border: solid 1px #ccc;
+  margin: 0px;
+  padding: 10px;
+  font-size: 7px;
+}
+.container {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.header {
+  background-color:lightblue;
+  height: 50px;
+  font-size: 1.5rem;
+}
+ul.top_menu {
+  float: right;
+}
+.top_menu li {
+  float: left;
+  width: auto;
+}
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+.logo_image {
+  width: 110px;
+  float: left;
+  margin: 0;
+}
+.image_area{
+  width: 100%;
+}
+.wrapper{
+  padding-bottom: 100px;
+}
+.side_menu{
+  width: 300px;
+  float: left;
+}
+.side_menu li{
+  background-color:lightblue
+  height: 6rem;
+  margin-bottom: 10px;
+}
+.side_menu li:hover{
+  opacity: 0.6;
+}
+}
+.side_menu li a{
+  font-size:2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+.side_menu.point{
+  background-color: rgb(81, 59, 177);
+}
+.content{
+  width: 660px;
+  margin-left:20px;
+  float: left;
+  font-size: 1.5rem;
+}
+.footer{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  background-color: #4D4D4D;
+  display: table;
+}
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+.contact tr{
+  height: 7rem;
+}
+.contact th {
+  max-width: 150px;
+  text-align: right;
+}
+.textarea_box{
+  height: 3rem;
+  margin-left: 1rem;
+  font-size: 12px;
+  width: 480px;
+  text-align: justify;
+}
+.input_box{
+  width: 480px;
+  margin-left: 1rem;
+}
+.furigana{
+  width: 480px;
+  margin-left: 1rem;
+}
+.cellphone_number {
+  width: 200px;
+  margin-left: 1rem;
+}
+.checkbox{
+  margin-left: 1rem;
+}
+.submit_button {
+  height: 50px;
+  width: 90px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-left: 250px;
+  text-align: center;
+  color: white;
+  background-color:rgb(45, 119, 180);
+}
+.submit_button:hover{
+  opacity: 0.5;
+}
